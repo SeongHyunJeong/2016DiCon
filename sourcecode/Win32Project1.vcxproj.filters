@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Initialize.cpp">
+      <Filter>Framework\Initailize</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Framework\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="IObject.cpp">
+      <Filter>Framework\IObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Framework\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Framework\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Framework\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Framework\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Weaponchange.cpp">
+      <Filter>_not used</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_ReinforceShop.cpp">
+      <Filter>Game\Scenes\씬 0 - Village\Scene_ReinforfceShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_HowPlay.cpp">
+      <Filter>Game\Scenes\Scene_HowPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInfo.cpp">
+      <Filter>Game\PlayerInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_PotionShop.cpp">
+      <Filter>_not used\Scene_PotionShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_House.cpp">
+      <Filter>Game\Scenes\씬 0 - Village\Scene_House</Filter>
+    </ClCompile>
+    <ClCompile Include="Collisions.cpp">
+      <Filter>Framework\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_CenterGate.cpp">
+      <Filter>Game\Scenes\씬 1 - 세갈래길</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Fight.cpp">
+      <Filter>Game\Scenes\전투씬</Filter>
+    </ClCompile>
+    <ClCompile Include="SText.cpp">
+      <Filter>Framework\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Framework\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="GScene.cpp">
+      <Filter>Game\Scenes\GScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Game\Scenes\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Setting.cpp">
+      <Filter>Game\Scenes\Scene_Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>Framework\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_CenterVillage.cpp">
+      <Filter>Game\Scenes\씬 2 - 번화가</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Dungeon1.cpp">
+      <Filter>Game\Scenes\씬 3 - 숲으로 가는길</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Dungeon2.cpp">
+      <Filter>Game\Scenes\씬 4 - 숲의 입구</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Dungeon3.cpp">
+      <Filter>Game\Scenes\씬 5 - 버섯나무</Filter>
+    </ClCompile>
+    <ClCompile Include="LongNote.cpp">
+      <Filter>Note</Filter>
+    </ClCompile>
+    <ClCompile Include="Note.cpp">
+      <Filter>Note</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Game\인벤토리</Filter>
+    </ClCompile>
+    <ClCompile Include="PotionShop.cpp">
+      <Filter>Game\Scenes\씬 0 - Village\PotionShop</Filter>
+    </ClCompile>
+    <ClCompile Include="Goblin.cpp">
+      <Filter>Game\Enemy\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="IEnemy.cpp">
+      <Filter>Game\Enemy\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="BeatmapManager.cpp">
+      <Filter>Game\BeatmapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Minimap.cpp">
+      <Filter>Game\Scenes\GScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>Game\Scenes\GScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>Game\Scenes\전투씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Village.cpp">
+      <Filter>Game\Scenes\씬 0 - Village</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponShop.cpp">
+      <Filter>Game\Scenes\씬 0 - Village\WeaponShop</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgBox.cpp">
+      <Filter>_not used</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>_not used</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Potion.cpp" />
+    <ClCompile Include="Confirm.cpp" />
+    <ClCompile Include="Quest.cpp" />
+    <ClCompile Include="Slime.cpp">
+      <Filter>Game\Enemy\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushroom.cpp">
+      <Filter>Game\Enemy\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bee.cpp">
+      <Filter>Game\Enemy\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="Orc.cpp">
+      <Filter>Game\Enemy\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Game\Enemy\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="S6.cpp">
+      <Filter>Game\Scenes\씬 6 - 세이브존</Filter>
+    </ClCompile>
+    <ClCompile Include="Ogre.cpp">
+      <Filter>Game\Enemy\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="Got.cpp">
+      <Filter>Game\Enemy\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="Ker.cpp">
+      <Filter>Game\Enemy\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="S7.cpp">
+      <Filter>Game\Scenes\씬 7</Filter>
+    </ClCompile>
+    <ClCompile Include="S8.cpp">
+      <Filter>Game\Scenes\씬 8</Filter>
+    </ClCompile>
+    <ClCompile Include="S9.cpp">
+      <Filter>Game\Scenes\씬 9</Filter>
+    </ClCompile>
+    <ClCompile Include="S10.cpp">
+      <Filter>Game\Scenes\씬 10</Filter>
+    </ClCompile>
+    <ClCompile Include="S12.cpp">
+      <Filter>Game\Scenes\씬 11 12</Filter>
+    </ClCompile>
+    <ClCompile Include="S11.cpp">
+      <Filter>Game\Scenes\씬 11 12</Filter>
+    </ClCompile>
+    <ClCompile Include="S13.cpp">
+      <Filter>Game\Scenes\씬 13</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss1.cpp">
+      <Filter>Game\Enemy\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss2.cpp">
+      <Filter>Game\Enemy\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss3.cpp">
+      <Filter>Game\Enemy\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="PrologScene.cpp" />
+    <ClCompile Include="EpilogScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{ffe5f8c0-f300-4058-9104-b59ec065eeef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{3a91e134-6e95-457d-b25b-7dc9de0d018e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Manager">
+      <UniqueIdentifier>{9f751144-a3dd-44ba-a472-a5605d758d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Initailize">
+      <UniqueIdentifier>{c73772ae-a069-4947-b9d2-2cb1a9e43f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Global">
+      <UniqueIdentifier>{933f77a1-d6cc-42cb-b342-abdd255ff21e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\IObject">
+      <UniqueIdentifier>{967078c2-6629-4426-996f-263755592a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Scene">
+      <UniqueIdentifier>{a25ec70a-57ad-426e-8947-988bb0a48c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Animation">
+      <UniqueIdentifier>{77e6b3d6-2b64-4061-9b1d-0595e7cf2440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Text">
+      <UniqueIdentifier>{b579d376-ccd3-4dae-9c8d-9909da68d0c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Sound">
+      <UniqueIdentifier>{6a797f07-501d-43f0-b291-1dcfe31a4705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Collisions">
+      <UniqueIdentifier>{7cc4619e-ac32-4a7e-ba56-48a8b436d874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\PlayerInfo">
+      <UniqueIdentifier>{02866ec2-86f5-40ad-b3e9-12b74c0e23c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Button">
+      <UniqueIdentifier>{84923f5e-6257-4407-a54f-c23bfe3ed8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Sprite">
+      <UniqueIdentifier>{b128d7ea-d796-4ef1-81a1-a4ae4b2177a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{055c46c3-2f88-4cc3-9848-0b416a53c05e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes">
+      <UniqueIdentifier>{a8f14311-25fd-4f6b-ab10-a2e0dcac4eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\Scene_HowPlay">
+      <UniqueIdentifier>{22bbd57e-90ae-46d8-810f-efcfff6e91c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\Scene_Dungeon">
+      <UniqueIdentifier>{a1b85c15-06d3-4f7b-8bd7-e39d5ebecca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\Scene_Setting">
+      <UniqueIdentifier>{35a2f49e-ea46-4c11-bed5-e9b75811467e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\MainScene">
+      <UniqueIdentifier>{3b770323-94fa-407f-943f-d79fb8936438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\GScene">
+      <UniqueIdentifier>{68f6090c-4d8a-4375-8232-1e0211a8ac3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Key">
+      <UniqueIdentifier>{92ce3269-e1cd-48b3-aa9a-f9a6bc8f5f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy">
+      <UniqueIdentifier>{af8fd72d-3a4b-4dd0-a65d-5dee530df4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\전투씬">
+      <UniqueIdentifier>{62de5b20-375f-49fb-a198-d973d6c9ba9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 0 - Village">
+      <UniqueIdentifier>{1e6cb807-d1bb-4434-aa92-b142bb8021ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 0 - Village\Scene_ReinforfceShop">
+      <UniqueIdentifier>{245adb55-0677-4d4f-a19c-12248388337a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 0 - Village\Scene_House">
+      <UniqueIdentifier>{2d2c2473-b3da-4a38-8b11-b6d6fe7f3ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 1 - 세갈래길">
+      <UniqueIdentifier>{9692bbb2-94da-43dc-97ef-5ef56160aefb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 2 - 번화가">
+      <UniqueIdentifier>{8277b402-478b-4880-b393-3e24b7667a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 3 - 숲으로 가는길">
+      <UniqueIdentifier>{62a8b2d9-6cc9-4edc-ac82-94362f428c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 4 - 숲의 입구">
+      <UniqueIdentifier>{6246c9a7-652d-4c7c-b9fb-78b2256c93e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 7">
+      <UniqueIdentifier>{7ef3086f-cabb-4f61-ae61-7bade1fa7f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 5 - 버섯나무">
+      <UniqueIdentifier>{386db929-82b3-49bd-b8ae-9c1e87f9adfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Note">
+      <UniqueIdentifier>{d8e6bc22-272e-4059-9551-8f11b3c1690e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\인벤토리">
+      <UniqueIdentifier>{c0158fb3-f769-44db-81b1-496e54e38918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 0 - Village\PotionShop">
+      <UniqueIdentifier>{c05ff191-7e92-43f1-837e-6863e443f8c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 0 - Village\WeaponShop">
+      <UniqueIdentifier>{1d904221-fb51-4128-ae31-ce38990dfc02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\Chapter1">
+      <UniqueIdentifier>{2230e5c2-c33f-4666-9e7d-db5cbd20dd61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\Base">
+      <UniqueIdentifier>{cfd2cf6e-7917-473b-8952-b305ad42b7db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\BeatmapManager">
+      <UniqueIdentifier>{048effd0-c373-4801-bff1-4841e00ac6aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_not used">
+      <UniqueIdentifier>{5ea64b4a-f1d6-4a48-8ba9-42540a8e82f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_not used\Scene_PotionShop">
+      <UniqueIdentifier>{901c6a7e-9110-4754-b5a5-3f1ee3a43f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 6 - 세이브존">
+      <UniqueIdentifier>{b5ed1ade-20f3-4dd6-b931-1891ea50ce76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\Chapter2">
+      <UniqueIdentifier>{6c9f0c87-f3de-4d4c-8735-7e6bb8f0447f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\Chapter3">
+      <UniqueIdentifier>{71280491-d382-4de7-9b13-b5681f9cefe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 8">
+      <UniqueIdentifier>{bce6d364-bbd5-43b7-89d1-ac4d77e72105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 9">
+      <UniqueIdentifier>{f4e0f691-f2b6-4176-bd2a-1155c1968d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 10">
+      <UniqueIdentifier>{858c1b3a-326f-431d-85c3-ee8fc2779ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 11 12">
+      <UniqueIdentifier>{7daadf4e-1780-47cc-8e37-6d3dabd31bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\씬 13">
+      <UniqueIdentifier>{fa462bf9-0233-43ce-9d89-c35d3190b186}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Initialize.h">
+      <Filter>Framework\Initailize</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Framework\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="IObject.h">
+      <Filter>Framework\IObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Framework\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Framework\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Framework\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Framework\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_ReinforceShop.h">
+      <Filter>Game\Scenes\씬 0 - Village\Scene_ReinforfceShop</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_HowPlay.h">
+      <Filter>Game\Scenes\Scene_HowPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Village.h">
+      <Filter>Game\Scenes\씬 0 - Village</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfo.h">
+      <Filter>Game\PlayerInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_PotionShop.h">
+      <Filter>_not used\Scene_PotionShop</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_House.h">
+      <Filter>Game\Scenes\씬 0 - Village\Scene_House</Filter>
+    </ClInclude>
+    <ClInclude Include="Collisions.h">
+      <Filter>Framework\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_CenterGate.h">
+      <Filter>Game\Scenes\씬 1 - 세갈래길</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Fight.h">
+      <Filter>Game\Scenes\전투씬</Filter>
+    </ClInclude>
+    <ClInclude Include="SText.h">
+      <Filter>Framework\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Framework\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="GScene.h">
+      <Filter>Game\Scenes\GScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Setting.h">
+      <Filter>Game\Scenes\Scene_Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Framework\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_CenterVillage.h">
+      <Filter>Game\Scenes\씬 2 - 번화가</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Game\Scenes\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Dungeon1.h">
+      <Filter>Game\Scenes\씬 3 - 숲으로 가는길</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Dungeon2.h">
+      <Filter>Game\Scenes\씬 4 - 숲의 입구</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Dungeon3.h">
+      <Filter>Game\Scenes\씬 5 - 버섯나무</Filter>
+    </ClInclude>
+    <ClInclude Include="LongNote.h">
+      <Filter>Note</Filter>
+    </ClInclude>
+    <ClInclude Include="Note.h">
+      <Filter>Note</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Game\인벤토리</Filter>
+    </ClInclude>
+    <ClInclude Include="PotionShop.h">
+      <Filter>Game\Scenes\씬 0 - Village\PotionShop</Filter>
+    </ClInclude>
+    <ClInclude Include="Goblin.h">
+      <Filter>Game\Enemy\Chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="IEnemy.h">
+      <Filter>Game\Enemy\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BeatmapManager.h">
+      <Filter>Game\BeatmapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Minimap.h">
+      <Filter>Game\Scenes\GScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting.h">
+      <Filter>Game\Scenes\GScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>Game\Scenes\전투씬</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponShop.h">
+      <Filter>_not used</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Weaponchange.h">
+      <Filter>Game\Scenes\씬 0 - Village\WeaponShop</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgBox.h">
+      <Filter>_not used</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>_not used</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="Potion.h" />
+    <ClInclude Include="Confirm.h" />
+    <ClInclude Include="Quest.h" />
+    <ClInclude Include="Slime.h">
+      <Filter>Game\Enemy\Chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushroom.h">
+      <Filter>Game\Enemy\Chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Bee.h">
+      <Filter>Game\Enemy\Chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Orc.h">
+      <Filter>Game\Enemy\Chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Game\Enemy\Chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="S6.h">
+      <Filter>Game\Scenes\씬 6 - 세이브존</Filter>
+    </ClInclude>
+    <ClInclude Include="Ogre.h">
+      <Filter>Game\Enemy\Chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="Got.h">
+      <Filter>Game\Enemy\Chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="Ker.h">
+      <Filter>Game\Enemy\Chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="S7.h">
+      <Filter>Game\Scenes\씬 7</Filter>
+    </ClInclude>
+    <ClInclude Include="S8.h">
+      <Filter>Game\Scenes\씬 8</Filter>
+    </ClInclude>
+    <ClInclude Include="S9.h">
+      <Filter>Game\Scenes\씬 9</Filter>
+    </ClInclude>
+    <ClInclude Include="S10.h">
+      <Filter>Game\Scenes\씬 10</Filter>
+    </ClInclude>
+    <ClInclude Include="S12.h">
+      <Filter>Game\Scenes\씬 11 12</Filter>
+    </ClInclude>
+    <ClInclude Include="S11.h">
+      <Filter>Game\Scenes\씬 11 12</Filter>
+    </ClInclude>
+    <ClInclude Include="S13.h">
+      <Filter>Game\Scenes\씬 13</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss1.h">
+      <Filter>Game\Enemy\Chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss2.h">
+      <Filter>Game\Enemy\Chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss3.h">
+      <Filter>Game\Enemy\Chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="PrologScene.h" />
+    <ClInclude Include="EpilogScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Win32Project1.rc" />
+  </ItemGroup>
+</Project>
